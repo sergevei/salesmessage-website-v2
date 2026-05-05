@@ -3969,7 +3969,7 @@ figcaption {
   color: var(--color-scheme-3--text);
 }
 
-.navbar2_dropdwn-toggle {
+.navbar2_dropdwn-toggle-2 {
   grid-column-gap: .5rem;
   align-items: center;
   padding: .5rem 1rem;
@@ -10886,7 +10886,7 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
-  .navbar2_dropdwn-toggle {
+  .navbar2_dropdwn-toggle-2 {
     flex: 0 auto;
     align-items: center;
     margin-left: 0;

@@ -2836,6 +2836,7 @@ figcaption {
 .button-6:hover {
   border-color: var(--_primitives---colors--blue-ribbon-dark);
   background-color: var(--_primitives---colors--blue-ribbon-dark);
+  color: var(--_primitives---colors--white);
 }
 
 .button-6.is-link {

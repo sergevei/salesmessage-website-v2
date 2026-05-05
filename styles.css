@@ -2814,7 +2814,7 @@ figcaption {
   color: var(--_primitives---colors--white);
 }
 
-.button {
+.button-5 {
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
   border: 1px solid var(--_primitives---colors--brand-primary);
@@ -2833,12 +2833,12 @@ figcaption {
   display: flex;
 }
 
-.button:hover {
+.button-5:hover {
   border-color: var(--_primitives---colors--blue-ribbon-dark);
   background-color: var(--_primitives---colors--blue-ribbon-dark);
 }
 
-.button.is-link {
+.button-5.is-link {
   background-color: var(--_primitives---opacity--transparent);
   color: var(--_primitives---colors--neutral-darkest);
   border-style: none;
@@ -2847,22 +2847,22 @@ figcaption {
   text-decoration: none;
 }
 
-.button.is-link:hover {
+.button-5.is-link:hover {
   text-decoration: underline;
 }
 
-.button.is-link.is-alternate {
+.button-5.is-link.is-alternate {
   background-color: var(--_primitives---opacity--transparent);
   color: var(--_primitives---colors--white);
 }
 
-.button.is-link.is-icon {
+.button-5.is-link.is-icon {
   grid-column-gap: .5rem;
   grid-row-gap: .5rem;
   font-size: 1rem;
 }
 
-.button.is-icon {
+.button-5.is-icon {
   grid-column-gap: .75rem;
   grid-row-gap: .75rem;
   justify-content: center;
@@ -2870,7 +2870,7 @@ figcaption {
   display: flex;
 }
 
-.button.is-secondary {
+.button-5.is-secondary {
   border-width: 1.5px;
   border-color: var(--_primitives---opacity--neutral-darkest-15);
   background-color: var(--_primitives---opacity--transparent);
@@ -2883,54 +2883,54 @@ figcaption {
   display: block;
 }
 
-.button.is-secondary:hover {
+.button-5.is-secondary:hover {
   background-color: var(--_primitives---opacity--neutral-darkest-5);
 }
 
-.button.is-secondary.is-alternate {
+.button-5.is-secondary.is-alternate {
   border-color: var(--_primitives---opacity--white-20);
   background-color: var(--_primitives---opacity--transparent);
   color: var(--_primitives---colors--white);
 }
 
-.button.is-secondary.is-alternate:hover {
+.button-5.is-secondary.is-alternate:hover {
   border-color: var(--_primitives---opacity--white-20);
   background-color: var(--_primitives---opacity--white-10);
 }
 
-.button.is-small {
+.button-5.is-small {
   padding: .25rem .625rem;
 }
 
-.button.is-alternate {
+.button-5.is-alternate {
   border-color: var(--_primitives---colors--white);
   background-color: var(--_primitives---colors--white);
   color: var(--_primitives---colors--neutral-darkest);
 }
 
-.button.is-alternate:hover {
+.button-5.is-alternate:hover {
   border-color: var(--_primitives---colors--neutral-lighter);
   background-color: var(--_primitives---colors--neutral-lighter);
 }
 
-.button.is-alternate.is-icon-new {
+.button-5.is-alternate.is-icon-new {
   border-color: var(--color-scheme-3--brand-tint);
   transition: border-color .2s, background-color .2s;
 }
 
-.button.is-alternate.is-icon-new:hover {
+.button-5.is-alternate.is-icon-new:hover {
   border-color: var(--color-scheme-3--brand-tint);
   background-color: var(--color-scheme-3--temp-color);
 }
 
-.button.is-secondary-2 {
+.button-5.is-secondary-2 {
   background-color: var(--_primitives---colors--white);
   color: var(--_primitives---colors--brand-primary);
   border-width: 1.5px;
   font-weight: 600;
 }
 
-.button.is-secondary-2.is-hidden {
+.button-5.is-secondary-2.is-hidden {
   display: block;
 }
 
@@ -10755,7 +10755,7 @@ figcaption {
     font-size: 3.25rem;
   }
 
-  .button.is-link.is-icon {
+  .button-5.is-link.is-icon {
     padding-top: .75rem;
     padding-bottom: .75rem;
   }
@@ -13759,32 +13759,32 @@ figcaption {
     font-size: .625rem;
   }
 
-  .button {
+  .button-5 {
     justify-content: center;
   }
 
-  .button.is-link.is-icon {
+  .button-5.is-link.is-icon {
     display: flex;
   }
 
-  .button.is-link.is-icon.is-burger {
+  .button-5.is-link.is-icon.is-burger {
     display: block;
   }
 
-  .button.is-link.is-icon.is-navbar {
+  .button-5.is-link.is-icon.is-navbar {
     display: none;
   }
 
-  .button.is-link.is-burger {
+  .button-5.is-link.is-burger {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
 
-  .button.is-secondary, .button.is-secondary-2 {
+  .button-5.is-secondary, .button-5.is-secondary-2 {
     display: block;
   }
 
-  .button.is-secondary-2.is-hidden {
+  .button-5.is-secondary-2.is-hidden {
     display: none;
   }
 
